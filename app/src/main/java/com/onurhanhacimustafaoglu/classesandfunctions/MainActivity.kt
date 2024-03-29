@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         myTextView = findViewById(R.id.textView)
         myButton = findViewById(R.id.button)
 
+
+
         /*
         myButton.setOnClickListener{
             myTextView.text = "button clicked 2"
@@ -35,6 +37,16 @@ class MainActivity : AppCompatActivity() {
 
         println(sumResult)
         println(result)
+
+
+        //Class
+
+        val homer = Simpson()
+        homer.name = "Homer Simpson"
+        homer.age = 50
+        homer.job = "Nuclear"
+        println(homer.name)
+
     }
 
 
